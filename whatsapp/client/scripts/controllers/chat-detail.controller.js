@@ -15,4 +15,8 @@ function ChatCtrl ($scope, $reactive, $stateParams){
 			return Chats.findOne(chatId);
 		},
 	});
+
+	function sendMessage(){
+		//to implement
+	}
 }
