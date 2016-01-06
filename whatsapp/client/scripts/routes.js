@@ -22,7 +22,7 @@ function config($stateProvider, $urlRouterProvider) {
       url: '/chats/:chatId',
       views: {
         'tab-chats': {
-          templateUrl: 'client/templates/chat-detail.html',
+          templateUrl: 'client/templates/chat.html',
           controller: 'ChatCtrl as chat'
         }
       }
